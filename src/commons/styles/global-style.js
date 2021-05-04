@@ -17,6 +17,7 @@ const globalStyle = createGlobalStyle`
         display: flex;
         padding; 0
         margin: 0;
+        font-family: 'Karantina', cursive;
     }
 
     #root {

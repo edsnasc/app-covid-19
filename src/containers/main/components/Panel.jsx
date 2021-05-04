@@ -34,7 +34,7 @@ function Panel({ updateAt, onChange, data, country, getCoviddata }) {
 
     const renderShareButton = (
         <div>
-            <Button variant="contained" color="primary" onClick={shareInfo}>
+            <Button variant="contained" color="secondary" onClick={shareInfo}>
                 Compartilhar
             </Button>
         </div>
@@ -42,7 +42,7 @@ function Panel({ updateAt, onChange, data, country, getCoviddata }) {
 
     const renderCopyButton = (
         <div>
-            <Button variant="contained" color="primary" onClick={copyInfo}>
+            <Button variant="contained" color="secondary" onClick={copyInfo}>
                 Copiar
             </Button>
         </div>
@@ -52,9 +52,9 @@ function Panel({ updateAt, onChange, data, country, getCoviddata }) {
         <Card>
             <CardPanelContentStyled>
                 <div>
-                    <Typography variant="h5" component="span" color="primary">COVID19 </Typography>
-                    <Typography variant="h6" component="span" color="primary">Painel Coronavírus </Typography>
-                    <Typography variant="body2" component="span" color="primary">Atualizado em: {updateAt}</Typography>
+                    <Typography variant="h5" component="span" color="inherit">COVID19 </Typography>
+                    <Typography variant="h6" component="span" color="inherit">Painel Coronavírus </Typography>
+                    <Typography variant="body2" component="span" color="inherit">Atualizado em: {updateAt}</Typography>
                     <div className="pt-2">
                         <Select onChange={onChange} value={country}>
                             {COUNTRIES.map(renderCountries)}

@@ -3,6 +3,7 @@ import ChinaFlag from '../../assets/images/china.png'
 import GermanyFlag from '../../assets/images/germany.png'
 import ItalyFlag from '../../assets/images/italy.png'
 import UsaFlag from '../../assets/images/usa.png'
+import JapanFlag from '../../assets/images/japan.png'
 
 const COUNTRIES = [
   {
@@ -29,6 +30,11 @@ const COUNTRIES = [
     label: 'Itália',
     value: 'italy',
     flag: ItalyFlag
+  },
+  {
+    label: 'Japão',
+    value: 'japan',
+    flag: JapanFlag
   }
 ]
 
