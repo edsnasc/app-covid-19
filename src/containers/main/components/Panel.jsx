@@ -7,7 +7,7 @@ import { CardPanelContentStyled, ItemStyled } from './style'
 const navigatorHasShare = navigator.share
 
 function Panel({ updateAt, onChange, data, country, getCoviddata }) {
-    const { cases, recovered, deaths, todayCases, todayDeaths } = data
+    const { cases, recovered, deaths } = data
 
     const renderCountries = (country, index) => (
         <MenuItem key={`country-${index}`} value={country.value}>
@@ -18,7 +18,7 @@ function Panel({ updateAt, onChange, data, country, getCoviddata }) {
         </MenuItem>
     )
 
-    const textCovid19 = `País: ${country} recuperados: ${recovered}`
+    const textCovid19 = `País: ${country} recuperados: ${recovered} mortes: ${deaths}`
 
     const copyInfo = () => {
         navigator.clipboard.writeText(textCovid19)
