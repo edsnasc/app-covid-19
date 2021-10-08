@@ -22,7 +22,7 @@
 # 🎬 Preview
 
 <p>
-  <img alt="app" src="https://media.giphy.com/media/i4IbaAxNy8Z0Z43rta/giphy.gif" width="100%">
+  <img alt="app" src="https://media.giphy.com/media/i4IbaAxNy8Z0Z43rta/giphy.gif" width="60%">
 </p>
 
 # 🌐 Link 
