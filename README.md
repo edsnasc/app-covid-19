@@ -15,9 +15,15 @@
 
 <br>
 
-## 💻 Project
+# 💻 Project
 
 <p>Projeto criado aplicando conhecimentos em React e consumindo uma API trazendo dados reais do avanço covid-19 pelo mundo</p>
+
+# 🎬 Preview
+
+<p>
+  <img alt="app" src="https://media.giphy.com/media/i4IbaAxNy8Z0Z43rta/giphy.gif" width="100%">
+</p>
 
 # 🌐 Link 
 
